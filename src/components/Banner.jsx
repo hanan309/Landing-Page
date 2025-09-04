@@ -1,4 +1,4 @@
-import Illustration from "../assets/illustration.png"
+import Illustration from "../assets/Illustration.png"
 const Banner = () => {
   return (
     <section className="bg-gray-50 py-12">
