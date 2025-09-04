@@ -1,4 +1,4 @@
-import illustration from "../assets/illustration.png";
+import Illustration from "../assets/illustration.png"
 const Banner = () => {
   return (
     <section className="bg-gray-50 py-12">
@@ -16,7 +16,7 @@ const Banner = () => {
           </button>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
-          <img src={illustration} alt="banner image" className="max-w-xs md:max-w-md w-full h-auto" />
+          <img src={Illustration} alt="banner image" className="max-w-xs md:max-w-md w-full h-auto" />
         </div>
       </div>
     </section>
